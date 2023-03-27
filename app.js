@@ -30,7 +30,7 @@ getBtn1.onclick = () => {
                 console.log(text);
 
                 let forRandom1 = text.split('').sort(function(){return 0.5-Math.random()}).join('');
-                getDisplay.innerHTML = forRandom1.slice(0, getOutput.innerHTML);
+                getDisplay.innerText = forRandom1.slice(0, getOutput.innerHTML);
                 break;
 
             case "LowerCaseWord":
@@ -38,7 +38,7 @@ getBtn1.onclick = () => {
                 console.log(text);
 
                 let forRandom2 = text.split('').sort(function(){return 0.5-Math.random()}).join('');
-                getDisplay.innerHTML = forRandom2.slice(0, getOutput.innerHTML);
+                getDisplay.innerText = forRandom2.slice(0, getOutput.innerHTML);
                 break;
 
             case "UperCaseWord":
@@ -46,7 +46,7 @@ getBtn1.onclick = () => {
                 console.log(text);
 
                 let forRandom3 = text.split('').sort(function(){return 0.5-Math.random()}).join('');
-                getDisplay.innerHTML = forRandom3.slice(0, getOutput.innerHTML);
+                getDisplay.innerText = forRandom3.slice(0, getOutput.innerHTML);
                 break;
 
 
