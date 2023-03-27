@@ -3,7 +3,7 @@ let getBtn1 = document.getElementById("genrate-btn");
 let getDisplay = document.getElementById("display-div");
 let getOutput = document.getElementById("output-id");
 
-
+alert("Hello User");
 let getInp2 = document.querySelector(".inp-for-select");
 
 getBtn1.onclick = () => {
