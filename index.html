@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Genrator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main-div">
+
+        <div id="display-div">
+
+
+
+        </div> <!-- display-div -->
+
+        <div id="genrates-div">
+
+            <button id="genrate-btn">Genrate</button>
+
+            <input type="range" value="24" min="1" max="30" oninput="this.nextElementSibling.value = this.value">
+            <output id="output-id">24</output>
+
+        </div> <!-- genrates-div -->
+
+
+        <div id="options-div">
+
+            <div id="option-div1" class="class-for-options">
+
+                Number
+
+                <!-- <div id="number-div">
+
+                    <button>Click</button>
+
+                </div> number-div ends here -->
+
+
+
+                <label>
+                    <input type="checkbox" id="inp1" class="inp-for-select" oninput="foo1(this)">
+                    <div id="div1" class="class-for-select1">
+                        <div id="div2" class="class-for-select2"></div>
+                    </div>
+                </label>
+
+
+
+            </div> <!-- option-div1 ends here -->
+
+
+            <div id="option-div2" class="class-for-options">
+
+                Symbol
+
+                <!-- <div id="symbol-div">
+
+                    <button>Click</button>
+
+                </div> symbol-div ends here -->
+
+
+
+                <label>
+                    <input type="checkbox" id="inp2" class="inp-for-select" oninput="foo1(this)">
+                    <div id="div3" class="class-for-select1">
+                        <div id="div4" class="class-for-select2"></div>
+                    </div>
+                </label>
+
+
+
+            </div> <!-- option-div2 ends here -->
+
+
+            <div id="option-div3" class="class-for-options">
+
+                LowerCaseWord
+
+                <!-- <div id="LowerCaseWord-div">
+
+                    <button>Click</button>
+
+                </div> LowerCaseWord-div ends here -->
+
+
+
+                <label>
+                    <input type="checkbox" id="inp3" class="inp-for-select" oninput="foo1(this)">
+                    <div id="div5" class="class-for-select1">
+                        <div id="div6" class="class-for-select2"></div>
+                    </div>
+                </label>
+
+
+
+            </div> <!-- option-div3 ends here -->
+
+
+            <div id="option-div4" class="class-for-options">
+
+                UperCaseWord
+
+                <!-- <div id="UperCaseWord-div">
+
+                    <button>Click</button>
+
+                </div> UperCaseWord-div ends here -->
+
+
+
+                <label>
+                    <input type="checkbox" id="inp4" class="inp-for-select" oninput="foo1(this)">
+                    <div id="div7" class="class-for-select1">
+                        <div id="div8" class="class-for-select2"></div>
+                    </div>
+                </label>
+
+
+
+            </div> <!-- option-div4 ends here -->
+
+
+        </div> <!-- options-div ends here -->
+
+    </div> <!-- main-div ends here -->
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
